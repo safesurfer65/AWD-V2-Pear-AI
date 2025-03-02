@@ -16,8 +16,8 @@ export default function ContactForm() {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_yqf6h8q', // Replace with your EmailJS service ID
+        'template_tbz0pvr', // Replace with your EmailJS template ID
         {
           to_email: 'markpurmal@gmail.com',
           from_name: formData.name,
@@ -25,7 +25,7 @@ export default function ContactForm() {
           subject: formData.subject,
           message: formData.message
         },
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        '3brm4RbCDCWgtu06v' // Replace with your EmailJS public key
       );
 
       setStatus({
