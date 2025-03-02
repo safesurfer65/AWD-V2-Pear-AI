@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { fill: #000000; }
+    .design { fill: #000000; }
+  </style>
+  <g transform="translate(50, 20)">
+    <!-- Tribal design -->
+    <path class="design" d="M 150,10 
+      C 160,10 170,15 175,25
+      L 190,40 
+      C 200,50 210,50 220,40
+      L 235,25
+      C 240,15 250,10 260,10
+      M 150,10
+      C 140,10 130,15 125,25
+      L 110,40
+      C 100,50 90,50 80,40
+      L 65,25
+      C 60,15 50,10 40,10
+      M 150,15
+      L 150,35
+      M 140,25 L 160,25
+      M 120,30 L 180,30"/>
+    
+    <!-- Main text -->
+    <text class="logo-text" x="0" y="120" font-family="Arial" font-size="72" font-weight="300">
+      aberdeen
+    </text>
+    
+    <!-- Web Design text -->
+    <text class="logo-text" x="30" y="180" font-family="Arial" font-size="48" font-weight="300">
+      web design
+    </text>
+  </g>
+</svg>
