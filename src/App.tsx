@@ -7,7 +7,7 @@ export default function App() {
       <header>
         <nav>
           <div className="logo">
-            <img src="/images/logo.svg" alt="Aberdeen Web Design" className="logo-img" />
+            <img src="/images/logo3.jpg" alt="Aberdeen Web Design" className="logo-img" />
           </div>
           <div className="nav-links">
             <a href="#home">Home</a>
