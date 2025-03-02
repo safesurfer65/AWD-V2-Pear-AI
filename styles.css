@@ -286,6 +286,32 @@ nav {
     background: #2980b9;
 }
 
+/* Form status messages */
+.status-message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.status-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.status-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.status-message.info {
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
 /* Footer */
 footer {
     background: #2c3e50;
@@ -303,6 +329,11 @@ footer {
 }
 
 .footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    height: 50px;
     margin-bottom: 1rem;
 }
 
